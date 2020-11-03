@@ -5,11 +5,9 @@ Home: https://github.com/informatics-lab/intake_geopandas
 
 Package license: BSD-2-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/intake-geopandas-feedstock/blob/master/LICENSE.txt)
 
 Summary: Geopandas plugin for Intake, providing drivers for Shapefiles, GeoJSON, PostGIS, and Spatialite
-
-
 
 Current build status
 ====================

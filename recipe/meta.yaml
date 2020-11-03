@@ -1,4 +1,4 @@
-{% set version = "0.2.3" %}
+{% set version = "0.2.4" %}
 
 package:
   name: intake-geopandas
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/i/intake_geopandas/intake_geopandas-{{ version }}.tar.gz
-  sha256: 7a0303b758a4d4323b8c905274d98608da0373c6d559e48d4f09054851608172
+  sha256: f94bacc0f499b56f5b71c52e018265755ba2b2b76169a5681802ec66f417f3ed
 
 build:
   number: 0
@@ -15,14 +15,12 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
   run:
-    - python
+    - python >=3.6
     - geopandas
     - intake
-    # bad dependency specification
-    - pytest
 
 test:
   requires:
@@ -42,3 +40,4 @@ about:
 extra:
   recipe-maintainers:
     - ocefpaf
+    - jhamman
