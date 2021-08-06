@@ -1,4 +1,4 @@
-{% set version = "0.2.4" %}
+{% set version = "0.3.0" %}
 
 package:
   name: intake-geopandas
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/i/intake_geopandas/intake_geopandas-{{ version }}.tar.gz
-  sha256: f94bacc0f499b56f5b71c52e018265755ba2b2b76169a5681802ec66f417f3ed
+  sha256: b2bdf9978cd22bff6634cbd5075a8e0172bae88e28f5e9c9a62dbd9e274d90dc
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -35,7 +35,7 @@ about:
   license: BSD-2-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: "Geopandas plugin for Intake, providing drivers for Shapefiles, GeoJSON, PostGIS, and Spatialite"
+  summary: Geopandas plugin for Intake, providing drivers for Shapefiles, GeoJSON, PostGIS, and Spatialite
 
 extra:
   recipe-maintainers:
