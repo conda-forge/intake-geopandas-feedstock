@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: intake-geopandas
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/i/intake_geopandas/intake_geopandas-{{ version }}.tar.gz
-  sha256: b2bdf9978cd22bff6634cbd5075a8e0172bae88e28f5e9c9a62dbd9e274d90dc
+  sha256: 2a228fb8ff8d52bb0eb93d87d305dfa1c70875ea76f603dd7ba5b7b54c4dd884
 
 build:
   number: 0
